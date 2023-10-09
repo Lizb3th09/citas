@@ -1,4 +1,6 @@
-import NavBar from '../components/navbar'
+import Header from '@/components/Header'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer' 
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -12,15 +14,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+      <head>
+      </head>
       <body className={inter.className}>
-        
-       <div className='flex h-[100vh]'>
-       <NavBar/>
+        <div className='flex flex-col min-h-screen'>
 
-        {children}
-      
-       </div> 
-        </body>
+          <Header />
+          <div className='flex flex-grow'>
+            <NavBar />
+            <main className='flex-grow p-4'>
+              {children}
+            </main>
+          </div>
+         
+          <Footer /> 
+        </div>
+      </body>
     </html>
   )
 }

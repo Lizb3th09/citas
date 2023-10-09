@@ -7,28 +7,29 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const NavBar = () => {
   return (
   
-  <nav className="bg-rose-600 p-4  lg:w-[15%] text-center ">
+  <nav className="bg-slate-900 p-4  lg:w-[15%] text-center  text-white">   
 
-<div className="mt-18 text-right bg-white hover:text-black">
-  <MenuIcon fontSize="large" />
+<div className=" text-right hover:text-teal-500 "><MenuIcon fontSize="large" />
 </div>
 
-<ul className="text-white space-y-4 md:space-y-9 mt-16 rounded-md p-2">
+<ul className="text-white space-y-4 md:space-y-9 mt-11 rounded-md p-2">
 
-<li className="flex font-bold  text-lg md:text-1xl hover:text-black hover:border-2 border-solid border-white  ">
-  <Link href={'/citas'}><ArrowForwardIosIcon/>  Cita</Link> 
+<div>
+<li className="flex font-bold  text-lg md:text-1xl hover:text-teal-500 ">
+  <Link href={'/citas'}><ArrowForwardIosIcon/>Cita</Link> 
 </li>
-<li className="flex font-bold  text-lg md:text-1xl hover:text-black hover:border-2 border-solid border-white ">
-  <Link href={'/acercaDe'}><ArrowForwardIosIcon/>  Help</Link>  
+<li className="flex font-bold  text-lg md:text-1xl hover:text-teal-500 ">
+  <Link href={'/acercaDe'}><ArrowForwardIosIcon/>Help</Link>  
 </li>
 
-<li className="font-bold text-2xl md:text-3xl  flex  hover:text-black ">
+<div><li className="font-bold text-2xl md:text-2xl  flex  hover:text-teal-500  mt-6">
   <Link href={'/'}>Home</Link>
   <HomeIcon fontSize="large"/>
-</li>
+</li></div>
+
+</div>
 
 </ul>
-
 
 </nav>
 
@@ -36,3 +37,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+

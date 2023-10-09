@@ -2,8 +2,8 @@ import React from 'react';
 
 const Formulario = () => {
   return (
-    <form className='mx-auto text-center max-w-md'>
-      <div className="space-y-2 p-4 bg-red-100 rounded-xl">
+    <form className='mx-auto text-center max-w-lg'>
+      <div className="mt-2 p-3 bg-slate-300  rounded-xl">
 
         <div className='flex flex-col'>
           <label className='p-2'>Nombre: </label>
@@ -22,11 +22,11 @@ const Formulario = () => {
 
         <div className='flex flex-col'>
           <label className='p-2'>Sintomas: </label>
-          <textarea className='p-2 resize-none rounded-md'></textarea>
+          <textarea className='p-1 resize-none rounded-md'></textarea>
         </div>
 
         <div>
-          <button className='bg-[#fe0324b1] p-2 m-3 text-white rounded-md w-40 hover:bg-black hover:text-white'>
+          <button className='bg-[#15919fb1] p-2 mt-2 text-white rounded-md w-40 hover:bg-black hover:text-white'>
             Agendar
           </button>
         </div>
