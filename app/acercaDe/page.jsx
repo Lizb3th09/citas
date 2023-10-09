@@ -9,7 +9,7 @@ export const Page3 = () => {
       <form className='mx-auto max-w-2xl  '>
         
      
-      <h1 className=" text-center font-bold text-2xl mt-8"> ESPECIALISTA</h1>
+      <h1 className=" text-center font-bold text-2xl mt-7"> ESPECIALISTA</h1>
 
         <div className="space-y-2 p-1 bg-rose-400 rounded-xl mt-4"></div>
 

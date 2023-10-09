@@ -3,7 +3,7 @@ import React from 'react';
 const Formulario = () => {
   return (
     <form className='mx-auto text-center max-w-lg'>
-      <div className="mt-2 p-3 bg-slate-300  rounded-xl">
+      <div className="mt-3 p-3 bg-slate-300  rounded-xl">
 
         <div className='flex flex-col'>
           <label className='p-2'>Nombre: </label>

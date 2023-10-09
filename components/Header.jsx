@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-cyan-700 p-1 sm:p-2 md:p-4 lg:p-6 xl:p-8 flex justify-center items-center h-20">
       <div className='flex items-center'>
 
-        <Image src={'/diente.svg'} width={60} height={60} alt='logo' style={{ width: 60, height: 60 }} />
+        <Image src={'/h.svg'} width={60} height={60} alt='logo' style={{ width: 60, height: 60 }} />
 
         <h1 className="text-2xl sm:text-3xl md:text-4xl  font-bold ml-2 sm:ml-4 md:ml-4">Dentall</h1>
         <div className="ml-4 sm:ml-4 flex">
