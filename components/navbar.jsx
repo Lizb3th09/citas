@@ -22,7 +22,7 @@ const NavBar = () => {
       <Popover className='hidden md:flex  justify-center p-7 lg:bg-cyan-700 items-center h-16 bg-black'>
   <div className="flex items-center">
     <Image src={'/h.svg'} width={60} height={60} alt='logo' style={{ width: 60, height: 60 }} />
-    <h1 className="font-bold text-3xl text-center text-white p-4 ">Dentall</h1>
+    <h1 className="font-bold text-3xl text-center text-white p-4 font-serif ">Dentall</h1>
   </div>
 
 
@@ -41,11 +41,11 @@ const NavBar = () => {
     
         <div className="flex items-center ms-9">
     <Image src={'/h.svg'} width={50} height={50} alt='logo' style={{ width: 50, height: 50 }} />
-    <h1 className="font-bold text-2xl text-center text-white p-4 ">Dentall</h1>
+    <h1 className="font-bold text-2xl text-center text-white p-4 font-serif ">Dentall</h1>
   </div>
 
 
-          <Popover.Button className="p-4">
+          <Popover.Button >
             <MenuIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
           </Popover.Button>
 
