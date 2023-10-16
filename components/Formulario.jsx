@@ -3,7 +3,7 @@ import React from 'react';
 const Formulario = () => {
   return (
     <form className='mx-auto text-center max-w-lg'>
-      <div className="mt-3 p-3 bg-slate-300  rounded-xl">
+      <div className="mt-3 p-3  bg-gradient-to-r from-teal-200 to-cyan-700   rounded-xl font-mono">
 
         <div className='flex flex-col'>
           <label className='p-2'>Nombre: </label>
@@ -26,7 +26,7 @@ const Formulario = () => {
         </div>
 
         <div>
-          <button className='bg-[#15919fb1] p-2 mt-2 text-white rounded-md w-40 hover:bg-black hover:text-white'>
+          <button className='bg-cyan-900 p-2 mt-2 text-white rounded-md w-40  hover:bg-black '>
             Agendar
           </button>
         </div>

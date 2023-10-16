@@ -9,11 +9,11 @@ export const Page3 = () => {
       <form className='mx-auto max-w-2xl  '>
         
      
-      <h1 className=" text-center font-bold text-2xl mt-7"> ESPECIALISTA</h1>
+      <h1 className=" text-center font-bold text-2xl mt-7 font-serif"> ESPECIALISTA</h1>
 
-        <div className="space-y-2 p-1 bg-rose-400 rounded-xl mt-4"></div>
+        <div className="space-y-2 p-1 bg-sky-900 rounded-xl mt-4"></div>
 
-        <div className="space-y-2 p-4 bg-rose-50 rounded-xl mt-4 flex flex-col ">
+        <div className="space-y-2 p-4  bg-sky-300 rounded-xl mt-4 flex flex-col bg-opacity-25 ">
 
           <div className='sm:w-1/2'>
             <label className='font-bold'>Nombre: </label>

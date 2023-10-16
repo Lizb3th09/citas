@@ -7,7 +7,7 @@ export const Page = () => {
     <div className='mx-auto text-center'>
     
  
-    <div className="flex items-center justify-center mt-6 font-bold  text-2xl">
+    <div className="flex items-center justify-center mt-6 font-bold  text-2xl font-serif">
   <Image src={'/s.svg'} width={60} height={60} alt='logo' style={{ width: 30, height: 30 }} /> AGENDAR CITA
  
 </div>

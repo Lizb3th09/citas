@@ -8,7 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer = () => {
   return (
     <section>
-      <div className='bg-sky-950 p-1 text-white flex flex-col' >
+      <div className='lg:bg-sky-950 p-1 text-white flex flex-col md:bg-slate-900  bg-sky-950 sm:bg-gray-950 ' >
 
        
         <div className='flex flex-col mb-3 items-center'>
